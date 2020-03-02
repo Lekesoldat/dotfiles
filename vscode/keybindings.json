@@ -1,1 +1,10 @@
-/Users/magnusholtet/Library/Application Support/Code/User/keybindings.json
+// Place your key bindings in this file to override the defaultsauto[]
+[{
+    "key": "cmd+[Semicolon]",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+shift+[Equal]",
+    "command": "-workbench.action.terminal.toggleTerminal"
+  }
+]
