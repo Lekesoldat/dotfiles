@@ -1,3 +1,3 @@
 # Dotfiles.
 
-Setupscripts shamelessly stolen from @fshauge
+No more hassle setting up a new environment.

@@ -1,7 +1,0 @@
-#! /bin/zsh
-
-for setup in **/setup; do
-    echo --- $(dirname $setup) ---
-    bash -c "cd $(dirname $setup) && ./setup"
-    echo
-done
