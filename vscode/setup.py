@@ -3,6 +3,12 @@ from pathlib import Path
 
 print("> Setting up VSCODE")
 
+# Extensions
+print("Installing from extensions.txt")
+with open("./extensions.txt", "r") as extensions:
+    for extension in extensions:
+        os.system(f"code --install-extension {extension}")
+
 # Settings
 print("Symlinking settings.json")
 src = f"{os.getcwd()}/settings.json"
