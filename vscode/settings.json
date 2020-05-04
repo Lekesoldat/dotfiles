@@ -1,50 +1,95 @@
 {
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "Ayu Mirage",
-  "workbench.iconTheme": "ayu",
-  "editor.tabSize": 2,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.codeLens": false,
+  "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
-  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Menlo, Monaco, 'Courier New'",
-  "terminal.integrated.fontFamily": "Roboto Mono For Powerline",
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.rulers": [
+    80
+  ],
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "git.confirmSync": false,
-  "git.autofetch": true,
-  "julia.enableTelemetry": true,
-  "editor.wordWrap": "on",
-  "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true,
-  "editor.formatOnPaste": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 0.75,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "python.jediEnabled": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[python]": {
-    "editor.insertSpaces": true,
-    "editor.tabSize": 4
-  },
+  "eslint.packageManager": "yarn",
+  "explorer.compactFolders": false,
   "files.associations": {
-    "**/templates/*.html": "django-html",
-    "**/templates/*": "django-txt",
-    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    "*.asp": "python"
   },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.ignoreLegacyWarning": true,
+  "python.linting.enabled": false,
+  "terminal.integrated.cursorStyle": "line",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "window.zoomLevel": 0.75,
+  "workbench.settings.editor": "json",
+  "workbench.tree.renderIndentGuides": "none",
   "[html]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
   },
-  "python.linting.flake8Enabled": true,
-  "python.formatting.provider": "black"
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[graphql]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ruby]": {
+    "editor.tabSize": 2
+  },
+  "[plaintext]": {
+    "editor.acceptSuggestionOnEnter": "off"
+  },
+  "workbench.colorTheme": "Ayu Mirage",
+  "editor.wordWrap": "on",
 }
