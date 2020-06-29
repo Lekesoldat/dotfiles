@@ -5,15 +5,10 @@
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
-  "editor.rulers": [
-    80
-  ],
+  "editor.rulers": [80],
   "editor.suggestSelection": "first",
   "eslint.packageManager": "yarn",
   "explorer.compactFolders": false,
-  "files.associations": {
-    "*.asp": "python"
-  },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": false,
@@ -28,6 +23,10 @@
   "workbench.settings.editor": "json",
   "workbench.tree.renderIndentGuides": "none",
   "[html]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  "[python]": {
     "editor.tabSize": 2,
     "editor.formatOnSave": true
   },
@@ -92,4 +91,7 @@
   },
   "workbench.colorTheme": "Ayu Mirage",
   "editor.wordWrap": "on",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "material-icon-theme",
 }
