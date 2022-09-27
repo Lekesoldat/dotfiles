@@ -4,6 +4,7 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
+  "editor.fontFamily": "'FiraCode Nerd Font', Monaco, 'Courier New', monospace",
   "window.zoomLevel": 0.75,
 
   // Formatting
