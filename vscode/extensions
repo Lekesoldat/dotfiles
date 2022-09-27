@@ -3,6 +3,8 @@ dbaeumer.vscode-eslint
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
 ms-azuretools.vscode-docker
+ms-vscode-remote.remote-containers
+ms-vscode.makefile-tools
 pranaygp.vscode-css-peek
 vscodevim.vim
 whizkydee.material-palenight-theme
