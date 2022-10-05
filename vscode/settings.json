@@ -15,6 +15,10 @@
   // Git
   "git.autofetch": true,
   "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
+
+  // GitLens
+  "gitlens.defaultDateLocale": null,
 
   // Vim
   "vim.leader": ",",
