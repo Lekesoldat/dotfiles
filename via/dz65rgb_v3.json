@@ -5,7 +5,7 @@
     "{KC_LGUI,KC_LSFT,KC_LCTL,KC_4}",
     "{KC_LCTL,KC_LGUI,KC_Q}",
     "{KC_LSFT,KC_LALT,KC_O}",
-    "",
+    "{KC_LCTL,KC_LGUI,KC_LSFT,KC_P}",
     "",
     "",
     "",
@@ -80,7 +80,7 @@
       "KC_NO",
       "KC_RSFT",
       "KC_UP",
-      "KC_NO",
+      "MO(3)",
       "KC_LCTL",
       "KC_LALT",
       "KC_LGUI",
@@ -199,7 +199,7 @@
       "RGB_SAD",
       "RGB_VAI",
       "RGB_VAD",
-      "MACRO02",
+      "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
       "RGB_RMOD",
@@ -276,8 +276,8 @@
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
-      "KC_TRNS",
-      "KC_TRNS",
+      "MACRO02",
+      "MACRO03",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
@@ -328,5 +328,6 @@
       "KC_TRNS",
       "KC_TRNS"
     ]
-  ]
+  ],
+  "encoders": []
 }
