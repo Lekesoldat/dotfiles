@@ -13,6 +13,7 @@ alias ..='cd ..'
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
+alias cd="z"
 
 # Python
 alias python='python3'
