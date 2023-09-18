@@ -4,21 +4,13 @@
 alias reload="source $HOME/.zshrc"
 alias dotfiles="code ~/dotfiles"
 
-# Listing
-alias ll='ls -l'
-alias la='ls -la'
 
 # Navigation
-alias ..='cd ..'
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
 alias cd="z"
 
 # Python
 alias python='python3'
 alias pip='pip3'
-
 
 # Misc
 alias cat="bat"
