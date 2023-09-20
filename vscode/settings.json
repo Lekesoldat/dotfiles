@@ -11,6 +11,9 @@
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.sortImports": true
+  },
 
   // Git
   "git.autofetch": true,
@@ -23,7 +26,6 @@
   // Vim
   "vim.leader": ",",
   "vim.hlsearch": true,
-  "vim.useCtrlKeys": true,
   "vim.normalModeKeyBindings": [
     {
       "before": ["<C-j>"],
