@@ -1,11 +1,13 @@
 {
   // Appearance
-  "workbench.colorTheme": "Nord",
+  "workbench.colorTheme": "Noctis",
   "editor.bracketPairColorization.enabled": true,
-  "editor.fontLigatures": true,
+  // "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
-  "editor.fontFamily": "'FiraCode Nerd Font', Monaco, 'Courier New', monospace",
-  "window.zoomLevel": 0.75,
+  // "editor.fontFamily": "'Operator Mono', 'Courier New', monospace",
+  "editor.fontFamily": "'FiraCode Nerd Font', 'Courier New', monospace",
+  // "editor.fontFamily": "'Cartograph CF', 'Courier New', monospace",
+  "editor.fontLigatures": false,
 
   // Formatting
   "editor.tabSize": 2,
@@ -72,4 +74,8 @@
 
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "sonarlint.pathToNodeExecutable": "/Users/holtet/.asdf/shims/node",
+  "vim.easymotion": true,
+  "workbench.iconTheme": "vscode-icons",
 }

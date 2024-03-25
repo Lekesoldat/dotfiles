@@ -4,7 +4,6 @@
 alias reload="source $HOME/.zshrc"
 alias dotfiles="code ~/dotfiles"
 
-
 # Navigation
 alias cd="z"
 
@@ -15,3 +14,10 @@ alias pip='pip3'
 # Misc
 alias cat="bat"
 alias pn='pnpm'
+alias ls='eza'
+alias ll='eza -lh'
+alias l='eza -lah'
+
+# Git
+alias lg='lazygit'
+

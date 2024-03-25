@@ -3,8 +3,8 @@ Brewfile.lock.json
 poetry
 
 # Work related ignores
-zsh/.zshrc.f/kksql
 zsh/.zshrc.d/temp_alias
+zsh/.zshrc.d/entur
 
 # Ignore updates on .gitconfig
 **/.gitconfig

@@ -3,7 +3,12 @@
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 
-plugins=(git asdf yarn zsh-autosuggestions)
+plugins=(
+	git 
+	asdf 
+	yarn 
+	zsh-autosuggestions
+)
 source $ZSH/oh-my-zsh.sh
 
 
@@ -14,3 +19,7 @@ done
 
 # Scripts that should be at the end
 eval "$(zoxide init zsh)"
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+

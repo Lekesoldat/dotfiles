@@ -1,12 +1,20 @@
 [user]
   name = Magnus L. Holtet
   email = magnus.holtetx+dev@gmail.com
+
 [init]
 	defaultBranch = main
+
 [pull]
 	rebase = false
+	ff = only
+
 [push]
 	autoSetupRemote = true
+
+[alias]
+	l = "!f() { git log --pretty=oneline -n ${1:-20} --graph --abbrev-commit; }; f"
+
 
 # Create directory specific gitconfig files
 [includeIf "gitdir:~/dev/<redacted>/"]
@@ -17,3 +25,6 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[core]
+	autocrlf = input
+
