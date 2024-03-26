@@ -1,5 +1,0 @@
-#!/bin/zsh
-
-echo Linking .zshrc, .zshrc.f and .zshrc.d to home directory
-ln -sfn "$(pwd)/.zshrc" "$HOME"
-ln -sfn "$(pwd)/.zshrc.d" "$HOME"

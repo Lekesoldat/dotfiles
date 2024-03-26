@@ -1,4 +1,0 @@
-#!/bin/zsh
-
-echo Linking .gitconfig to home directory
-ln -sfn "$(pwd)/.gitconfig" "$HOME"
