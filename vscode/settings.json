@@ -27,6 +27,11 @@
 
   // Vim
   "vim.leader": ",",
+  "vim.highlightedyank.enable": true,
+  "vim.smartcase": true,
+  "vim.ignorecase": true,
+  "vim.useSystemClipboard": true,
+  "vim.easymotion": true,
   "vim.hlsearch": true,
   "vim.normalModeKeyBindings": [
     {
@@ -44,6 +49,18 @@
           "command": ":noh"
         }
       ]
+    },
+    {
+      "before": ["<leader>", "r"],
+      "commands": [
+        {
+          "command": "editor.action.rename"
+        }
+      ]
+    },
+    {
+      "before": ["<space>"],
+      "after": ["/"]
     }
   ],
   "vim.visualModeKeyBindings": [
@@ -62,6 +79,18 @@
       "after": ["<Esc>"]
     }
   ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<C-l>"],
+      "commands": [":nohl"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["."],
+      "commands": ["editor.action.clipboardCutAction"]
+    }
+  ],
 
   // Misc
   "workbench.startupEditor": "none",
@@ -73,9 +102,13 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
 
   "typescript.preferences.importModuleSpecifier": "relative",
-  "typescript.updateImportsOnFileMove.enabled": "always"
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "sonarlint.connectedMode.connections.sonarcloud": [
+    {
+      "organizationKey": "enturas",
+      "connectionId": "Entur"
+    }
+  ],
   "sonarlint.pathToNodeExecutable": "/Users/holtet/.asdf/shims/node",
-  "vim.easymotion": true,
   "workbench.iconTheme": "vscode-icons",
 }
