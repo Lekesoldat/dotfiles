@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+export POSID=01000105
+export REACT_APP_SECRET_KEY=tvm2019.
