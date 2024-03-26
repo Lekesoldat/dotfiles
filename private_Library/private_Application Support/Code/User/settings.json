@@ -1,0 +1,116 @@
+{
+  // Appearance
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "editor.bracketPairColorization.enabled": true,
+  // "editor.fontLigatures": true,
+  "editor.cursorBlinking": "phase",
+  // "editor.fontFamily": "'Operator Mono', 'Courier New', monospace",
+  "editor.fontFamily": "'FiraCode Nerd Font', 'Courier New', monospace",
+  // "editor.fontFamily": "'Cartograph CF', 'Courier New', monospace",
+  "editor.fontLigatures": false,
+
+  // Formatting
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.sortImports": "explicit"
+  },
+
+  // Git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
+
+  // GitLens
+  "gitlens.defaultDateLocale": null,
+
+  // Vim
+  "vim.leader": ",",
+  "vim.highlightedyank.enable": true,
+  "vim.smartcase": true,
+  "vim.ignorecase": true,
+  "vim.useSystemClipboard": true,
+  "vim.easymotion": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<C-j>"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["5", "k"]
+    },
+    {
+      "before": ["<Esc><Esc>"],
+      "commands": [
+        {
+          "command": ":noh"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "r"],
+      "commands": [
+        {
+          "command": "editor.action.rename"
+        }
+      ]
+    },
+    {
+      "before": ["<space>"],
+      "after": ["/"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["<C-j>"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["5", "k"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<C-l>"],
+      "commands": [":nohl"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["."],
+      "commands": ["editor.action.clipboardCutAction"]
+    }
+  ],
+
+  // Misc
+  "workbench.startupEditor": "none",
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDragAndDrop": false,
+
+  // Languages
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "sonarlint.connectedMode.connections.sonarcloud": [
+    {
+      "organizationKey": "enturas",
+      "connectionId": "Entur"
+    }
+  ],
+  "workbench.iconTheme": "vscode-icons",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "workbench.activityBar.location": "top"
+}
