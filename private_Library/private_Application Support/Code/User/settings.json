@@ -1,6 +1,6 @@
 {
   // Appearance
-  "workbench.colorTheme": "Catppuccin Frappé",
+  "workbench.colorTheme": "Everforest Dark",
   "editor.bracketPairColorization.enabled": true,
   // "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
@@ -8,6 +8,7 @@
   "editor.fontFamily": "'FiraCode Nerd Font', 'Courier New', monospace",
   // "editor.fontFamily": "'Cartograph CF', 'Courier New', monospace",
   "editor.fontLigatures": false,
+  "editor.minimap.enabled": false,
 
   // Formatting
   "editor.tabSize": 2,
