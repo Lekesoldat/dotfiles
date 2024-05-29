@@ -1,0 +1,71 @@
+set clipboard=unnamedplus
+let mapleader=","
+
+set surround
+set commentary
+set nowrap
+set hlsearch
+set ignorecase
+set smartcase
+set matchit
+set multiple-cursors
+set highlightedyank
+set ideajoin
+set NERDTree
+
+map <silent> <C-l> :noh<CR>
+
+nnoremap <silent> <Tab> :bnext<CR>
+nnoremap <silent> <S-Tab> :bprevious<CR>
+
+nnoremap <silent> <space> /
+map <A-w> :bd<CR>
+
+map <C-j> 5j
+map <C-k> 5k
+
+map <leader>j i<CR><Esc>k$
+
+vmap . "_x
+
+imap <C-j> <Down>
+imap <C-k> <Up>
+
+nmap <C-n> <Plug>NextWholeOccurrence
+xmap <C-n> <Plug>NextWholeOccurrence
+nmap g<C-n> <Plug>NextOccurrence
+xmap g<C-n> <Plug>NextOccurrence
+" nmap <C-x> <Plug>SkipOccurrence
+xmap <C-x> <Plug>SkipOccurrence
+nmap <C-p> <Plug>RemoveOccurrence
+xmap <C-p> <Plug>RemoveOccurrence
+nmap <S-C-n> <Plug>AllWholeOccurrences
+xmap <S-C-n> <Plug>AllWholeOccurrences
+" nmap g<S-C-n> <Plug>AllOccurrences
+" xmap g<S-C-n> <Plug>AllOccurrences
+
+" IDEA REBIND
+map <Leader>r :action RenameElement<CR>
+map <Leader>e <Action>(GotoNextError)
+map <Leader><Leader>e <Action>(GotoPreviousError)
+map <Leader>dt <Action>(ToggleLineBreakpoint)
+map <Leader>dc <Action>(Debugger.ResumeThread)
+map <Leader>dl <Action>(Debug)
+map <Leader><Leader>dl <Action>(ChooseDebugConfiguration)
+map <Leader>ca <Action>(ShowIntentionActions)
+map <Leader>gc <Action>(GotoImplementation)
+map <Leader>gp <Action>(GotoSuperMethod)
+map <Leader>gt <Action>(GotoTypeDeclaration)
+map <Leader><Leader>n <Action>(NextOccurence)
+map <Leader><Leader>p <Action>(PreviousOccurence)
+map <S-C-k> <Action>(ShowErrorDescription)
+map <Leader>f <Action>(GotoFile)
+map <S-C-n> <Action>(GotoFile)
+
+map <Leader>gj <Action>(VcsShowNextChangeMarker)
+map <Leader>gk <Action>(VcsShowPrevChangeMarker)
+map <Leader>gr <Action>(Vcs.RollbackChangedLines)
+
+map <C--> <Action>(Back)
+map <C-,> <Action>(Back)
+map <C-.> <Action>(Forward)
