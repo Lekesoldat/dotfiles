@@ -1,13 +1,14 @@
 {
   // Appearance
-  "workbench.colorTheme": "Everforest Dark",
+  "workbench.colorTheme": "Cobalt2",
   "editor.bracketPairColorization.enabled": true,
-  // "editor.fontLigatures": true,
+  "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
   // "editor.fontFamily": "'Operator Mono', 'Courier New', monospace",
   "editor.fontFamily": "'FiraCode Nerd Font', 'Courier New', monospace",
+  "editor.fontFamily": "'Operator Mono', 'Courier New', monospace",
+  // "editor.fontFamily": "'FiraCode Nerd Font', 'Courier New', monospace",
   // "editor.fontFamily": "'Cartograph CF', 'Courier New', monospace",
-  "editor.fontLigatures": false,
   "editor.minimap.enabled": false,
 
   // Formatting
@@ -110,8 +111,11 @@
       "connectionId": "Entur"
     }
   ],
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "bearded-icons",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+
+  "editor.stickyScroll.enabled": false
 }
