@@ -1,15 +1,17 @@
 {
   // Appearance
   "workbench.colorTheme": "Cobalt2",
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.activityBar.location": "top",
+
   "editor.bracketPairColorization.enabled": true,
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
-  // "editor.fontFamily": "'Operator Mono', 'Courier New', monospace",
-  "editor.fontFamily": "'FiraCode Nerd Font', 'Courier New', monospace",
   "editor.fontFamily": "'Operator Mono', 'Courier New', monospace",
   // "editor.fontFamily": "'FiraCode Nerd Font', 'Courier New', monospace",
   // "editor.fontFamily": "'Cartograph CF', 'Courier New', monospace",
   "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
 
   // Formatting
   "editor.tabSize": 2,
@@ -105,17 +107,19 @@
 
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+
   "sonarlint.connectedMode.connections.sonarcloud": [
     {
       "organizationKey": "enturas",
       "connectionId": "Entur"
     }
-  ],
-  "workbench.iconTheme": "bearded-icons",
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "workbench.activityBar.location": "top"
-  "workbench.activityBar.location": "top",
-
-  "editor.stickyScroll.enabled": false
+  ]
 }
