@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+# https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-the-cli#setting-up-aliases
+eval "$(gh copilot alias -- zsh)"
