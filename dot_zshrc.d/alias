@@ -2,7 +2,7 @@
 
 # Config
 alias reload="source $HOME/.zshrc"
-alias dotfiles="code ~/dotfiles"
+# alias dotfiles="code ~/dotfiles"
 
 # Navigation
 alias cd="z"
@@ -17,9 +17,10 @@ alias ls='eza'
 alias ll='eza -lh'
 alias l='eza -lah'
 
-alias cz="chezmoi"
 alias cat="bat"
 
+# alias sshnuc="ssh root@192.168.1.52"
+# alias acm="asciinema"
 
 # Git
 alias lg='lazygit'
