@@ -2,7 +2,7 @@
 
 # Config
 alias reload="source $HOME/.zshrc"
-# alias dotfiles="code ~/dotfiles"
+alias dotfiles="code $HOME/.local/share/chezmoi"
 
 # Navigation
 alias cd="z"
@@ -13,9 +13,10 @@ alias pip='pip3'
 
 
 # Eza
-alias ls='eza'
-alias ll='eza -lh'
-alias l='eza -lah'
+alias ld='eza -lD'  # lists only directories (no files)
+alias lf='eza -lfh'  # lists only files (no directories) with column headers
+alias lh='eza -dl .* --group-directories-first'  # lists hidden files and directories
+alias ls='eza -alh --group-directories-first'  # lists everything with directories first with column headers
 
 alias cat="bat"
 
