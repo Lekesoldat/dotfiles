@@ -7,11 +7,13 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
-  "editor.fontFamily": "'Operator Mono', 'Courier New', monospace",
-  // "editor.fontFamily": "'FiraCode Nerd Font', 'Courier New', monospace",
+  // "editor.fontFamily": "'Operator Mono', 'Courier New', monospace",
+  "editor.fontFamily": "'FiraCode Nerd Font', 'Courier New', monospace",
   // "editor.fontFamily": "'Cartograph CF', 'Courier New', monospace",
   "editor.minimap.enabled": false,
   "editor.stickyScroll.enabled": false,
+
+  "window.title": "${rootName}${separator}${activeEditorShort}${separator}${profileName}",
 
   // Formatting
   "editor.tabSize": 2,
@@ -96,11 +98,6 @@
     }
   ],
 
-  // Misc
-  "workbench.startupEditor": "none",
-  "files.autoSave": "afterDelay",
-  "explorer.confirmDragAndDrop": false,
-
   // Languages
   "javascript.preferences.importModuleSpecifier": "relative",
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -116,6 +113,14 @@
     "editor.defaultFormatter": "mtxr.sqltools"
   },
 
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+
+  // Misc
+  "workbench.startupEditor": "none",
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDragAndDrop": false,
   "sonarlint.connectedMode.connections.sonarcloud": [
     {
       "organizationKey": "enturas",
