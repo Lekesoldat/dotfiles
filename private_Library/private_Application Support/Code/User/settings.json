@@ -1,36 +1,16 @@
 {
-  // Appearance
-  "workbench.colorTheme": "Cobalt2",
-  "workbench.iconTheme": "bearded-icons",
-  "workbench.activityBar.location": "top",
-
-  "editor.bracketPairColorization.enabled": true,
-  "editor.fontLigatures": true,
-  "editor.cursorBlinking": "phase",
-  // "editor.fontFamily": "'Operator Mono', 'Courier New', monospace",
-  "editor.fontFamily": "'FiraCode Nerd Font', 'Courier New', monospace",
-  // "editor.fontFamily": "'Cartograph CF', 'Courier New', monospace",
-  "editor.minimap.enabled": false,
-  "editor.stickyScroll.enabled": false,
-
-  "window.title": "${rootName}${separator}${activeEditorShort}${separator}${profileName}",
-
-  // Formatting
   "editor.tabSize": 2,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.sortImports": "explicit"
-  },
-
-  // Git
   "git.autofetch": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Bearded Theme Solarized Light",
+  "workbench.iconTheme": "bearded-icons",
+  // "editor.fontFamily": "'FiraCode Nerd Font', 'Cartograph CF', Menlo, Monaco, 'Courier New', monospace"
+  "editor.fontFamily": "'Monaspace Neon', 'Cartograph CF', monospace",
+  "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
+  "files.autoSave": "onFocusChange",
   "git.confirmSync": false,
-  "git.ignoreRebaseWarning": true,
-
-  // GitLens
-  "gitlens.defaultDateLocale": null,
-
+  "workbench.remoteIndicator.showExtensionRecommendations": false,
   // Vim
   "vim.leader": ",",
   "vim.highlightedyank.enable": true,
@@ -41,15 +21,27 @@
   "vim.hlsearch": true,
   "vim.normalModeKeyBindings": [
     {
-      "before": ["<C-j>"],
-      "after": ["5", "j"]
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "5",
+        "j"
+      ]
     },
     {
-      "before": ["<C-k>"],
-      "after": ["5", "k"]
+      "before": [
+        "<C-k>"
+      ],
+      "after": [
+        "5",
+        "k"
+      ]
     },
     {
-      "before": ["<Esc><Esc>"],
+      "before": [
+        "<Esc><Esc>"
+      ],
       "commands": [
         {
           "command": ":noh"
@@ -57,7 +49,10 @@
       ]
     },
     {
-      "before": ["<leader>", "r"],
+      "before": [
+        "<leader>",
+        "r"
+      ],
       "commands": [
         {
           "command": "editor.action.rename"
@@ -65,66 +60,61 @@
       ]
     },
     {
-      "before": ["<space>"],
-      "after": ["/"]
+      "before": [
+        "<space>"
+      ],
+      "after": [
+        "/"
+      ]
     }
   ],
   "vim.visualModeKeyBindings": [
     {
-      "before": ["<C-j>"],
-      "after": ["5", "j"]
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "5",
+        "j"
+      ]
     },
     {
-      "before": ["<C-k>"],
-      "after": ["5", "k"]
+      "before": [
+        "<C-k>"
+      ],
+      "after": [
+        "5",
+        "k"
+      ]
     }
   ],
   "vim.insertModeKeyBindings": [
     {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<C-l>"],
-      "commands": [":nohl"]
+      "before": [
+        "<C-l>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
     }
   ],
-  "vim.visualModeKeyBindingsNonRecursive": [
-    {
-      "before": ["."],
-      "commands": ["editor.action.clipboardCutAction"]
-    }
-  ],
-
-  // Languages
-  "javascript.preferences.importModuleSpecifier": "relative",
+  "github.copilot.chat.edits.codesearch.enabled": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.chat.editor.temporalContext.enabled": true,
+  "workbench.activityBar.location": "top",
+  "editor.minimap.enabled": false,
+  "typescript.tsserver.log": "verbose",
   "javascript.updateImportsOnFileMove.enabled": "always",
-
-  "typescript.preferences.importModuleSpecifier": "relative",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-
-  "[sql]": {
-    "editor.defaultFormatter": "mtxr.sqltools"
-  },
-
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
-
-  // Misc
-  "workbench.startupEditor": "none",
-  "files.autoSave": "afterDelay",
-  "explorer.confirmDragAndDrop": false,
-  "sonarlint.connectedMode.connections.sonarcloud": [
-    {
-      "organizationKey": "enturas",
-      "connectionId": "Entur"
-    }
-  ]
+  "github.copilot.chat.edits.temporalContext.enabled": true
 }
