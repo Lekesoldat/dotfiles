@@ -32,7 +32,7 @@ alt-f = 'fullscreen'
 
 alt-s = 'layout v_accordion'               # 'layout stacking' in i3
 alt-w = 'layout h_accordion'               # 'layout tabbed' in i3
-alt-e = 'layout tiles horizontal vertical' # 'layout toggle split' in i3
+alt-q = 'layout tiles horizontal vertical' # 'layout toggle split' in i3
 
 alt-shift-space = 'layout floating tiling' # 'floating toggle' in i3
 
@@ -76,7 +76,7 @@ ctrl-alt-l = 'move-workspace-to-monitor right'
 
 alt-shift-c = 'reload-config'
 
-# alt-r = 'mode resize'
+alt-r = 'mode resize'
 
 cmd-h = []     # Disable "hide application"
 cmd-alt-h = [] # Disable "hide others"
@@ -98,6 +98,36 @@ outer.top = 3
 outer.right = 3
 
 [[on-window-detected]]
-if.app-id = 'com.gitbutler.app'
+if.app-id = 'company.thebrowser.Browser'
+check-further-callbacks = true
+run = ['move-node-to-workspace 1']
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.VSCode'
+check-further-callbacks = true
+run = ['move-node-to-workspace 2']
+
+[[on-window-detected]]
+if.app-id = 'com.spotify.client'
+check-further-callbacks = true
+run = ['move-node-to-workspace 8']
+
+[[on-window-detected]]
+if.app-id = 'org.whispersystems.signal-desktop'
 check-further-callbacks = true
 run = ['move-node-to-workspace 9']
+
+[[on-window-detected]]
+if.app-id = 'com.tinyspeck.slackmacgap'
+check-further-callbacks = true
+run = ['move-node-to-workspace 9']
+
+[[on-window-detected]]
+if.app-id = 'com.gitbutler.app'
+check-further-callbacks = true
+run = ['move-node-to-workspace 10']
+
+[[on-window-detected]]
+if.app-id = 'dev.warp.Warp-Stable'
+check-further-callbacks = true
+run = ['move-node-to-workspace 10']
