@@ -10,6 +10,7 @@ plugins=(
 	zsh-autosuggestions
 	docker
 	kubectl
+	gcloud
 )
 source $ZSH/oh-my-zsh.sh
 

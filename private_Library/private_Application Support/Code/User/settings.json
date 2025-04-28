@@ -3,7 +3,7 @@
   "editor.formatOnSave": true,
   "git.autofetch": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Bearded Theme Solarized Light",
+  "workbench.colorTheme": "Bearded Theme HC Ebony",
   "workbench.iconTheme": "bearded-icons",
   // "editor.fontFamily": "'FiraCode Nerd Font', 'Cartograph CF', Menlo, Monaco, 'Courier New', monospace"
   "editor.fontFamily": "'Monaspace Neon', 'Cartograph CF', monospace",
@@ -109,12 +109,14 @@
       ]
     }
   ],
-  "github.copilot.chat.edits.codesearch.enabled": true,
   "github.copilot.nextEditSuggestions.enabled": true,
-  "github.copilot.chat.editor.temporalContext.enabled": true,
   "workbench.activityBar.location": "top",
   "editor.minimap.enabled": false,
   "typescript.tsserver.log": "verbose",
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": true,
+  "github.copilot.chat.editor.temporalContext.enabled": true,
   "github.copilot.chat.edits.temporalContext.enabled": true
 }

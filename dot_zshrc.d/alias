@@ -7,6 +7,8 @@ alias dotfiles="code $HOME/.local/share/chezmoi"
 # Navigation
 alias cd="z"
 
+alias zj="zellij"
+
 # Python
 alias python='python3'
 alias pip='pip3'
@@ -20,9 +22,13 @@ alias ls='eza -alh --group-directories-first'  # lists everything with directori
 
 alias cat="bat"
 
-# alias sshnuc="ssh root@192.168.1.52"
+alias sshnuc="ssh root@192.168.1.52"
 # alias acm="asciinema"
 
 # Git
 alias lg='lazygit'
+alias pn='pnpm'
+alias cr='cursor'
+alias vc='code'
+alias jobb='code ~/dev/Entur/automat-app'
 

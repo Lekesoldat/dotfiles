@@ -16,5 +16,72 @@
   // prevent VSCode from modifying the terminal colors
   "terminal.integrated.minimumContrastRatio": 1,
   // make the window's titlebar use the workbench colors
-  "window.titleBarStyle": "custom"
+  "window.titleBarStyle": "custom",
+  // "editor.fontFamily": "'FiraCode Nerd Font', 'Cartograph CF', Menlo, Monaco, 'Courier New', monospace"
+  "editor.fontFamily": "'Monaspace Neon', 'Cartograph CF', monospace",
+  "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
+  "files.autoSave": "onFocusChange",
+  "git.confirmSync": false,
+  "workbench.remoteIndicator.showExtensionRecommendations": false,
+
+  // Vim
+  "vim.leader": ",",
+  "vim.highlightedyank.enable": true,
+  "vim.smartcase": true,
+  "vim.ignorecase": true,
+  "vim.useSystemClipboard": true,
+  "vim.easymotion": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<C-j>"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["5", "k"]
+    },
+    {
+      "before": ["<Esc><Esc>"],
+      "commands": [
+        {
+          "command": ":noh"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "r"],
+      "commands": [
+        {
+          "command": "editor.action.rename"
+        }
+      ]
+    },
+    {
+      "before": ["<space>"],
+      "after": ["/"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["<C-j>"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["5", "k"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<C-l>"],
+      "commands": [":nohl"]
+    }
+  ]
 }
